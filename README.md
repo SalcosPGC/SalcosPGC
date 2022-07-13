@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SalcosPGC
 - 👀 I’m interested in DnD, gaming, and discord bots
-- 🌱 I’m currently learning Javascript, and Java
+- 🌱 I’m currently learning C, IoT, Javascript, and Java
 - 💞️ I’m looking to collaborate on a discord bot written in JS
 - 📫 How to reach me michael@prestigegaming.net
 
