@@ -1,6 +1,7 @@
 #include<string.h>
 #include<stdio.h>
 #include<string.h>
+#include "parser.h"
 
 int main()
 {
@@ -14,6 +15,7 @@ int main()
     //parses the input to be solved
     char * token = strtok(str, " ");
 
+    //Will continue to iterate until the string is completed
     while (token != NULL)
     {
         if(strncmp(token, "+", 1) == 0){
@@ -39,6 +41,10 @@ int main()
         }
         else if(strncmp(token, "%", 1) == 0){
             printf("\n%s    REMAINDER", token);
+        }
+        else if((strstr(token, "1") != NULL) || (strstr(token, "2") != NULL) || (strstr(token, "3") != NULL) || (strstr(token, "4") != NULL) || (strstr(token, "5") != NULL) || 
+            (strstr(token, "6") != NULL) || (strstr(token, "7") != NULL) || (strstr(token, "8") != NULL) || (strstr(token, "9") != NULL) || (strstr(token, "0") != NULL)){
+            printf("\n%s    NUMBER", token);
         }
         else{
             printf("\n%s    ERROR", token);
